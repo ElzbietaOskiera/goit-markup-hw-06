@@ -271,6 +271,78 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-newsletter {
+  padding-top: 72px;
+  padding-left: 78px;
+}
+
+.footer-newsletter form {
+  display: flex;
+}
+
+.footer-newsletter-label span {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-text);
+  margin: 0;
+  display: block;
+  padding-bottom: 20px;
+}
+
+.footer-newsletter-input {
+  width: 358px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 1.25;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 0;
+  padding-left: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: #2f303a;
+  color: rgba(255, 255, 255, 0.6);
+  transition: border-color 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-newsletter-button {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  background: var(--blue-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: var(--blue-color);
+  border-radius: 4px;
+  fill: #afb1b8;
+  color: var(--white-text);
+  padding: 0;
+  align-items: center;
+  text-align: center;
+  padding-left: 42px;
+  margin-left: 12px;
+  margin-top: 36px;
+  transition: background 250ms, fill 250ms, color 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-newsletter-button span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.footer-newsletter-button svg {
+  margin-left: 24px;
+}
+
+
+
 /*agencja,portfolio,kontakt - header*/
 
 .about-links a {
