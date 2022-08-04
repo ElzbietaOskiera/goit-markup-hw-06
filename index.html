@@ -66,13 +66,97 @@
             EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
           </h1>
           <button class="button-order" type="button" data-modal-open>Zamów usługę</button>
-          <div class="modal-backdrop is-hidden" data-modal>
-            <section class="modal-content">
-              <button class="modal-exit" data-modal-close>X</button>
             </section>
           </div>
         </div>
       </div>
+
+      <div class="modal-backdrop is-hidden" data-modal>
+      <section class="modal-content">
+        <button class="modal-exit" data-modal-close>
+          <svg width="11" height="11">
+            <use href="/goit-markup-hw-06/images/icons.svg#x-icon"></use>
+          </svg>
+        </button>
+        <h2>Zostaw swoje dane w formularzu poniżej</h2>
+        <div class="modal-form">
+          <form name="modal-form">
+            <ul>
+              <li class="modal-form-item">
+                <label for="modal-username"><span>Imie</span></label>
+                <svg width="12" height="12">
+                  <use
+                    href="/goit-markup-hw-06/images/icons.svg#name-icon"
+                  ></use>
+                </svg>
+                <input
+                  class="input-box"
+                  type="text"
+                  id="modal-username"
+                  name="username"
+                />
+              </li>
+              <li class="modal-form-item">
+                <label for="modal-phone-number"><span>Telefon</span></label
+                ><svg width="13" height="13">
+                  <use
+                    href="/goit-markup-hw-06/images/icons.svg#phone-black-icon"
+                  ></use></svg>
+                ><input
+                  class="input-box"
+                  type="tel"
+                  id="modal-phone-number"
+                  name="phone-number"
+                />
+              </li>
+              <li class="modal-form-item">
+                <label for="modal-email"><span>Email</span></label
+                ><svg width="15" height="12">
+                  <use
+                    href="/goit-markup-hw-06/images/icons.svg#email-black-icon"
+                  ></use></svg>
+                ><input
+                  class="input-box"
+                  type="email"
+                  id="modal-email"
+                  name="email"
+                />
+              </li>
+              <li class="modal-form-item">
+                <label for="modal-comment"><span>Komentarz</span></label
+                ><textarea
+                  class="input-box"
+                  id="modal-comment"
+                  placeholder="Wprowadź tekst"
+                  name="comment"
+                ></textarea>
+              </li>
+              <li class="modal-checkbox-item">
+                <div class="modal-checkbox-div">
+                  <input
+                    class="modal-checkbox"
+                    id="checkbox"
+                    type="checkbox"
+                    name="checkbox"
+                  />
+                  <svg class="modal-checkbox-svg" width="11" height="8">
+                    <use
+                      href="/goit-markup-hw-06/images/icons.svg#checkbox-vector"
+                    ></use>
+                  </svg>
+                </div>
+                <label
+                  ><span class="modal-checkbox-text"
+                    >Oświadczam iż akceptuję <a href="">Regulamin</a> i
+                    <a href="">Politykę prywatności.</a></span
+                  ></label>
+              </li>
+              <li><button type="submit">Wyślij</button></li>
+            </ul>
+          </form>
+        </section>
+        </div>
+
       <section class="first-section">
         <div class="container">
           <ul class="description">
