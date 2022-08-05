@@ -974,6 +974,12 @@ display: flex;
   color: #757575;
 }
 
+.modal-checkbox-text a {
+  color: #2196F3;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .modal-checkbox-svg {
   z-index: 102;
   border-radius: 2px;
